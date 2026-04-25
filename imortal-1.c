@@ -8,7 +8,7 @@ int quantleituras() { //funcao adicional para definir a quantidade de leituras q
     printf("Quantas leituras voce quer fazer (3 a 100): ");
     scanf("%d", &l);
 
-    while (l < 3 || l > 100) { //Não permite um valor menor que 3 e maior que 100
+    while (l < 3 || l > 100) { //Não permite um valor menor que 3 ou maior que 100
         printf("\033[1;31m!ERROR!\033[0m Digite um valor valido, tente novamente.\n");
         printf("Quantas leituras voce quer fazer (3 a 100): ");
         scanf("%d", &l);
